@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  background: rgb(49,41,193);
+  background: linear-gradient(90deg, rgba(49,41,193,1) 0%, rgba(201,0,255,1) 100%);
+  color: white;
+  filter: drop-shadow(5px 5px 20px #000000);
+}
+
+button {
+  background: white;
+  color: black;
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 170px;
+  border-radius: 5px;
+  height: 40px;
+  font-family: 'Inter', sans-serif;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  background: #d1d1d1;
+  cursor: pointer;
+}
